@@ -13,9 +13,9 @@ struct Stack {
 };
 
 // Function to initialize stack
-void initStack(struct Stack* s, int size) {
+void initStack(struct Stack* s, int size) {  //struct Stack* s ----- func ko stack ka address diya jta h taki changes directly usi stack mae ho 
     // Yahan 's' ek pointer hai, isliye arrow (->) use karna padega
-    s->size = size;                
+    s->size = size;             //s is a pointer jo stack ko point kr rha h  jb function call hoga to s mae struct ka address store h toa hum s->mumber likhne se hum s (struct) ke member ko access kr payenge   
     s->top = -1;                   
     s->arr = (int*)malloc(size * sizeof(int)); 
 }
