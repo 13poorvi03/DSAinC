@@ -1,5 +1,10 @@
 // pass by reference 
 #include<stdio.h>
+
+// *x means  pointer x pr jao and uspar jo variable "a" ki value store ho rakhi h usko temp pr lejakra store kardo 
+// then *y pr jo variable "b" ki value daali h usko forcefully *x par store kardo jise variable "a" ki value change ho jayegi 
+// *y pr jao then uss pr forceflly temp ki value store kardo jisse variable "b" ki value cchange ho jayegi 
+// then swapping done 
 void swap(int* x, int* y){    ///int*x is holding address of "a" //int*y is holding address of "b"
     int temp ;
     temp =*x; // temp =2
