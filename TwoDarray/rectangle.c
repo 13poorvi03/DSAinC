@@ -34,3 +34,13 @@ int main() {
 
     return 0;
 }
+
+// in this code hum add karte h ek small rectangle ko matrices example-----
+// 1  2  3  4
+// 5  6  7  8
+//10 11 12 13
+
+//okay so in this matrix we have to add number from arr[0][1] to arr[1][3] okay so u have to add only----
+// 2 3 4
+// 6 7 8
+// it ans is 30
