@@ -30,7 +30,7 @@ int main(){
     }
 
     // Print
-    printf("The maximum of elements: %d\n", max);
+    printf("The maximum of elements: %d\n", max );
 
     return 0;
 }
