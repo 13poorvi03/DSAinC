@@ -10,6 +10,7 @@
 #include<stdio.h>
 int main(){
 struct pokemon{    //user defined data type
+    //these all are called attributes and we access these with using dot operator pikachu.attack
     int hp;         // this all are a properties of pokemon 
     int speed;      //in this we store same data of pokemeon
     int attack;     // in this we can use differt type of data type
