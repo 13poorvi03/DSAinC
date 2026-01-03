@@ -12,7 +12,7 @@ int main(){
 struct pokemon{    //user defined data type
     int hp;         // this all are a properties of pokemon 
     int speed;      //in this we store same data of pokemeon
-    int attack;
+    int attack;     // in this we can use differt type of data type
     char tier;   // S,A,B,C,D
 };
 struct pokemon pikachu;
