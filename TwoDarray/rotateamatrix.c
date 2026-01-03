@@ -22,6 +22,13 @@ int main() {
             arr[j][i] = temp;
         }
     }
+        printf("\ntranspose Matrix:\n");
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            printf(" %d ", arr[i][j]);
+        }
+        printf("\n");
+    }
 
     // Reverse each row (to rotate 90° clockwise)
     for(int i=0; i<n; i++){
